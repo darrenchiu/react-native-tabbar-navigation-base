@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 
 import TabNavigator from 'react-native-tab-navigator';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import TabOne from './tab-one';
 import TabTwo from './tab-two';
@@ -53,7 +53,7 @@ export default class TabBarNavigationBase extends Component {
     let color = isSelected ? "#007aff" : '#c7c7cc';
 
     return (
-      <Icon name="md-notifications" size={25} color={color}/>
+      <Icon name="rocket" size={25} color={color}/>
     );
   }
 }
